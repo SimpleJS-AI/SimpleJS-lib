@@ -8,3 +8,11 @@ class NeuralNetwork {
         this.output_nodes = output_nodes;
     }
 }
+
+
+class Matrix {
+    constructor(rows, columns) {
+        this.rows = rows;
+        this.columns = columns;
+    }
+}
