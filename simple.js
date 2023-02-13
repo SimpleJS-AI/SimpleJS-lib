@@ -14,5 +14,11 @@ class Matrix {
     constructor(rows, columns) {
         this.rows = rows;
         this.columns = columns;
+        this.data = [];
+        for (let i = 0; i < this.rows; i++) {
+            for (let j = 0; j < this.columns; j++) {
+                this.data[i][j] = 0;
+            }
+        }
     }
 }
