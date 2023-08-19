@@ -16,7 +16,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/flug8/SimpleJS-lib">
-    <img src="assets/img/logo.png" alt="Logo" width="80" height="80">
+    <img src="logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">SimpleJS</h3>
