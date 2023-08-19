@@ -192,6 +192,6 @@ Project Link: [https://github.com/flug8/SimpleJS-lib](https://github.com/flug8/S
 [stars-url]: https://github.com/flug8/SimpleJS-lib/stargazers
 [issues-shield]: https://img.shields.io/github/issues/flug8/SimpleJS-lib.svg?style=for-the-badge
 [issues-url]: https://github.com/flug8/SimpleJS-lib/issues
-[license-shield]: https://img.shields.io/github/license/flug8/SimpleJS-lib.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/flug8/SimpleJS-lib.svg?style=for-the-badge&label=license
 [license-url]: https://github.com/flug8/SimpleJS-lib/blob/master/LICENSE
 [product-screenshot]: https://placehold.co/600x400?font=roboto&text=SimpleJS
