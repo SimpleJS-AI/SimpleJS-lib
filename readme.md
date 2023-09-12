@@ -24,7 +24,7 @@
   <p align="center">
     description
     <br />
-    <a href="https://github.com/flug8/SimpleJS-lib"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/flug8/SimpleJS-lib/wiki"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/flug8/SimpleJS-lib">View Demo</a>
