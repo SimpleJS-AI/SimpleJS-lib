@@ -27,7 +27,7 @@
     <a href="https://github.com/flug8/SimpleJS-lib/wiki"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/flug8/SimpleJS-lib">View Demo</a>
+    <a href="https://simplejs.ai">Visit Website</a>
     ·
     <a href="https://github.com/flug8/SimpleJS-lib/issues">Report Bug</a>
     ·
@@ -37,72 +37,37 @@
 
 
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-
-
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+SimpleJS is a JavaScript based machine learning library. It is designed to be simple and easy to use and still to be fast and efficient. It is built on top of the [Math.js](https://mathjs.org/) library.
 
-[![Product Name Screen Shot][product-screenshot]](https://placehold.co/600x400?font=roboto&text=SimpleJS)
+The library includes theses learning algorithms:
+* Backpropagation based on gradient descent
+* Genetic algorithm
 
-Description
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Backpropagation is a supervised learning algorithm. It is used to train neural networks. 
+The genetic algorithm is an unsupervised learning algorithm. It can be used without any prior knowledge of the data.
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Installation
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+This is an example of how you may implement the library in your project.
+To include the library in your project follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
+To be able to use the library you need to have it included in your html file like this:
+(Don't forget to include the math.js library as well)
+```html
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.3.2/math.js"></script>
+<script src="https://SimpleJS-AI.github.io/SimpleJS-lib/lib/simple.js"></script>
   ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/flug8/SimpleJS-lib.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+Alternatively you can also use the minified version of the library:
+```html
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.3.2/math.js"></script>
+<script src="https://SimpleJS-AI.github.io/SimpleJS-lib/lib/simple.min.js"></script>
+  ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,45 +75,29 @@ This is an example of how to list things you need to use the software and how to
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+The complete user guide is in the [docs](https://example.com).
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Here is a small example that shows how the library can be implemented when using the backpropagation to solve the XOR problem.
+
+```javascript
+let nn = new NeuralNetwork(2, 3, 1, .5);
+
+const inputs = [  [0, 0], [0, 1], [1, 0], [1, 1] ];
+const results = [ [0], [1], [1], [0] ];
+
+while(true){
+    let index = Math.floor(Math.random() * 4);
+    nn2.bp(inputs[index], results[index]);
+}
+```
+
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/flug8/SimpleJS-lib/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- LICENSE -->
@@ -163,22 +112,12 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Flurin Graeff - [@flug8](https://twitter.com/flug81) - flurin@simplejs.ai
 
 Project Link: [https://github.com/flug8/SimpleJS-lib](https://github.com/flug8/SimpleJS-lib)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
