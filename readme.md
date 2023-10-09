@@ -22,7 +22,7 @@
 <h3 align="center">SimpleJS</h3>
 
   <p align="center">
-    description
+    A simple JavaScript based machine learning library
     <br />
     <a href="https://github.com/flug8/SimpleJS-lib/wiki"><strong>Explore the docs »</strong></a>
     <br />
