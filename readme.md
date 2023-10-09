@@ -49,6 +49,8 @@ The library includes theses learning algorithms:
 Backpropagation is a supervised learning algorithm. It is used to train neural networks. 
 The genetic algorithm is an unsupervised learning algorithm. It can be used without any prior knowledge of the data.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- GETTING STARTED -->
 ## Installation
 
@@ -103,7 +105,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See `LICENSE` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
