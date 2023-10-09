@@ -42,7 +42,7 @@
 ## About The Project
 SimpleJS is a JavaScript based machine learning library. It is designed to be simple and easy to use and still to be fast and efficient. It is built on top of the [Math.js](https://mathjs.org/) library.
 
-The library includes theses learning algorithms:
+The library includes these learning algorithms:
 * Backpropagation based on gradient descent
 * Genetic algorithm
 
