@@ -55,17 +55,17 @@ The genetic algorithm is an unsupervised learning algorithm. It can be used with
 ## Installation
 
 This is an example of how you may implement the library in your project.
-To include the library in your project follow these simple example steps.
+To include the library in your project, follow these simple example steps.
 
 ### Prerequisites
 
-To be able to use the library you need to have it included in your html file like this:
+To be able to use the library, you need to have it included in your HTML file like this:
 (Don't forget to include the math.js library as well)
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.3.2/math.js"></script>
 <script src="https://SimpleJS-AI.github.io/SimpleJS-lib/lib/simple.js"></script>
   ```
-Alternatively you can also use the minified version of the library:
+Alternatively, you can also use the minified version of the library:
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.3.2/math.js"></script>
 <script src="https://SimpleJS-AI.github.io/SimpleJS-lib/lib/simple.min.js"></script>
