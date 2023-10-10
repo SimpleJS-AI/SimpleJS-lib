@@ -1,7 +1,3 @@
-```html
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.3.2/math.js"></script>
-<script src="https://SimpleJS-AI.github.io/SimpleJS-lib/lib/simple.js"></script>
-```
 <a name="readme-top"></a>
 
 [![Contributors][contributors-shield]][contributors-url]
