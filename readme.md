@@ -73,7 +73,7 @@ Alternatively, you can also use the minified version of the library:
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-The complete user guide is in the [docs](https://example.com).
+The complete user guide is in the [docs](https://github.com/flug8/SimpleJS-lib/wiki).
 
 Here is a small example that shows how the library can be implemented when using the backpropagation to solve the XOR problem.
 
@@ -90,7 +90,7 @@ while(true){
 ```
 
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For more examples, please refer to the [Documentation](https://github.com/flug8/SimpleJS-lib/wiki)_
 
 
 
@@ -110,7 +110,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Flurin Graeff - [@flug8](https://twitter.com/flug81) - flurin@simplejs.ai
+Flurin Graeff - flurin@simplejs.ai
 
 Project Link: [https://github.com/flug8/SimpleJS-lib](https://github.com/flug8/SimpleJS-lib)
 
