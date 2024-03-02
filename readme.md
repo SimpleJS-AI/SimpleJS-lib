@@ -59,12 +59,12 @@ To be able to use the library, you need to have it included in your HTML file li
 (Don't forget to include the math.js library as well)
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.3.2/math.js"></script>
-<script src="https://SimpleJS-AI.github.io/SimpleJS-lib/lib/simple.js"></script>
+<script type="module" src="https://SimpleJS-AI.github.io/SimpleJS-lib/lib/simple.js"></script>
   ```
 Alternatively, you can also use the minified version of the library:
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.3.2/math.js"></script>
-<script src="https://SimpleJS-AI.github.io/SimpleJS-lib/lib/simple.min.js"></script>
+<script type="module" src="https://SimpleJS-AI.github.io/SimpleJS-lib/lib/simple.min.js"></script>
   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
